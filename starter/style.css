@@ -2,16 +2,21 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
 }
 /* ==== Common Fix ends here==== */
 
 /* ===== First section starts here===== */
 .firstsection {
-    height: 430px;
-    border: 3px solid orange;
+    height: 460px;
+    /* border: 3px solid orange; */
     display: flex;
 }
 .firstsection-leftdiv {
+    padding: 20px;
     width: 50%;
     height: 100%;
     background: var(--gray-color);
@@ -23,4 +28,32 @@
     background-size: cover;
     background-position: bottom left;
 }
+span {
+    color: red
+}
+.logotext {
+    margin-bottom: 20px;
+}
+.heading {
+    margin-bottom: 20px;
+}
+.line {
+    height: 16px;
+    background: var( --main-color);
+    width: 224px;
+}
+
+.firstsection-leftdiv p {
+    margin-bottom: 25px;
+}
+
+.link-holder {
+    /* border: 3px solid purple; */
+    color: var( --white-color);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
 /* ===== First section starts here===== */
