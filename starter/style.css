@@ -8,7 +8,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 /* ==== Common Fix ends here==== */
-
+img {
+    width: 100%;
+    height: 100%
+    ;
+}
 /* ===== First section starts here===== */
 .firstsection {
     height: 460px;
@@ -57,3 +61,49 @@ span {
 }
 
 /* ===== First section starts here===== */
+
+/* ===== Second section starts here===== */
+.secondsection {
+    /* border: 3px solid cadetblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    flex-wrap: wrap;
+}
+.secondsection-leftdiv {
+    height: 400px;
+    width: 310px;
+    /* border: 3px solid red; */
+    background: var(--gray-color);
+    padding: 30px 25px;
+}
+.secondsection-leftdiv h4 {
+    margin-bottom: 10px;
+}
+.secondsection-leftdiv p {
+    margin-bottom: 20px;
+}
+.secondsection-rightdiv {
+    height: 460px;
+    width: 340px;
+    /* border: 3px solid goldenrod; */
+    margin-left: 20px;
+    /* background: url(./images/image2.jpg);
+    background-size: cover;
+    background-position: bottom right; */
+}
+
+
+
+/* ===== Second section ends here===== */
+
+/* ===== Third section starts here===== */
+.thirdsection{
+    background: var( --gray-color);
+    /* width: 794px; */
+    height: 560px;
+}
+/* ===== Third section starts here===== */
