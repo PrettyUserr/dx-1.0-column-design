@@ -19,8 +19,6 @@ ScrollReveal().reveal(' .line' , {origin: bottom, delay : 1000}
 
 ScrollReveal().reveal('.secondsection-leftdiv', { rotate: {
     y: 180,
-    // y: -180,
-    // z: 0,
 },
 distance: '100px',
 duration: 3000,});
