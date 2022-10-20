@@ -39,5 +39,18 @@
     margin-top: 30px;
 }
 /* ===== Second section ends here===== */
+
+/* ===== Third section starts here===== */
+.thirdsection {
+    flex-direction: column-reverse;
+    background: var(  --gray-color);
 }
+
+/* ===== Third section starts here===== */
+
+
+
+
+}
+
 

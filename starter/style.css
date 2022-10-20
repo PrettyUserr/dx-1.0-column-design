@@ -82,6 +82,7 @@ span {
 }
 .secondsection-leftdiv h4 {
     margin-bottom: 10px;
+    text-align: center;
 }
 .secondsection-leftdiv p {
     margin-bottom: 20px;
@@ -96,14 +97,64 @@ span {
     background-position: bottom right; */
 }
 
-
-
 /* ===== Second section ends here===== */
+
 
 /* ===== Third section starts here===== */
 .thirdsection{
-    background: var( --gray-color);
+    /* background: var( --gray-color); */
     /* width: 794px; */
-    height: 560px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+.thirdsection-leftdiv{
+    height: 460px;
+    width: 340px;
+    /* border: 3px solid greenyellow; */
+    background: url(./images/image3.jpg);
+    background-size: cover;
+    /* background-position: bottom left; */
+}
+.thirdsection-rightdiv {
+    height: 460px;
+    width: 340px;
+    /* border: 3px solid black; */
+    background: var( --main-color);
+    padding: 30px 20px;
+}
+.thirdsection-rightdiv p {
+    margin-bottom: 25px;
 }
 /* ===== Third section starts here===== */
+
+footer{
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    color: white;
+}
+.footericons-container {
+    font-size: 22px;
+    color: var(--white-color);
+}
+.footer-icon {
+    margin: 0 5px;
+    text-decoration: none;
+    color: var(--white-color);
+}
+.firstsection,.secondsection,.thirdsection,footer {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
